@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jingle Holiday Bazar</title>
+	<!-- swiper js cdn -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+	<!-- cdn link font awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	<!-- fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+	<!-- css -->
+	<link rel="stylesheet" href="./style.css">
+	<!-- extra css -->
+	<link rel="stylesheet" href="./extraCSS.css">
+</head>
+<body>
+	<!-- navbar -->
+	<header class="fixed top-0 left-0 w-full z-50">
+		<nav id="nav" class=" flex justify-between items-center px-4 lg:px-14 py-2 bg-[#005546] lg:bg-transparent text-white font-medium text-[17px]">
+			<div class="">
+				<img class="h-14 rounded-full" src="./assets/mainlogo.gif" alt="Main-Logo">
+			</div>
+
+			<div class="lg:hidden flex items-center pl-2 text-2xl md:text-3xl">
+				<i class="hamburger fa-solid fa-bars"></i>
+			</div>
+
+			<div class="hidden lg:block">
+				<ul class="flex justify-center space-x-10">
+					<li class="px-2 hover:bg-[#0d2025] hover:text-white rounded-full"><a href="#">Home</a></li>
+					<li class="px-2 hover:bg-[#0d2025] hover:text-white rounded-full"><a href="#">About Us</a></li>
+					<li class="px-2 hover:bg-[#0d2025] hover:text-white rounded-full"><a href="#">Domestic</a></li>
+					<li class="px-2 hover:bg-[#0d2025] hover:text-white rounded-full"><a href="#">International</a></li>
+					<li class="px-2 hover:bg-[#0d2025] hover:text-white rounded-full"><a href="#">Place</a></li>
+					<li class="px-2 hover:bg-[#0d2025] hover:text-white rounded-full"><a href="#">Packages</a></li>
+					<li class="px-2 hover:bg-[#0d2025] hover:text-white rounded-full"><a href="#">Contact Us</a></li>
+					<li class="px-2 hover:bg-[#0d2025] hover:text-white rounded-full"><a href="#">+91-8506922777</a></li>
+				</ul>
+			</div>
+
+			<div>
+				<button class="bg-[#c7e3d0] px-4 py-1 lg:py-2 text-[#005546] rounded-full font-semibold cursor-pointer hover:bg-[#87b295]">PAY NOW</button>
+			</div>
+		</nav>
+
+		<!-- side bar -->
+		<div class="bg-[#9dded2] transition ease-in-out duration-1000 delay-300 ">
+			<div class="sidebar flex flex-col items-center px-2">
+				<div class="text-2xl flex justify-center">
+					<i class="cross fa-solid fa-xmark text-[#005546]"></i>
+				</div>
+		
+				<div class="flex justify-center">
+					<ul class="space-y-4 font-semibold text-[#005546] py-2">
+						<li class="px-2 hover:bg-[#0d2025] rounded-full"><a href="#">Home</a></li>
+						<li class="px-2 hover:bg-[#0d2025] rounded-full"><a href="#">About Us</a></li>
+						<li class="px-2 hover:bg-[#0d2025] rounded-full"><a href="#">Domestic</a></li>
+						<li class="px-2 hover:bg-[#0d2025] rounded-full"><a href="#">International</a></li>
+						<li class="px-2 hover:bg-[#0d2025] rounded-full"><a href="#">Place</a></li>
+						<li class="px-2 hover:bg-[#0d2025] rounded-full"><a href="#">Packages</a></li>
+						<li class="px-2 hover:bg-[#0d2025] rounded-full"><a href="#">Contact Us</a></li>
+						<li class="px-2 hover:bg-[#0d2025] rounded-full"><a href="#">+91-8506922777</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- scroll banner -->
+	<main class="">
+		<section class="bg-transparent pt-16 lg:pt-0">
+			<!-- scrolled banner -->
+			<div class="overflow-y-hidden">
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper h-[40vh] lg:h-[80vh]">
+						<div class="swiper-slide">
+							<div>
+								<img class="h-[40vh] lg:h-[80vh] w-full object-cover" src="./assets/banner/akshardham-temple.webp" alt="">
+							</div>
+						</div>
+		
+						<div class="swiper-slide">
+							<div>
+								<img class="h-[40vh] lg:h-[80vh] w-full object-cover" src="./assets/banner/badrinath-banner.webp" alt="">
+							</div>
+						</div>
+		
+						<div class="swiper-slide">
+							<div>
+								<img class="h-[40vh] lg:h-[80vh] w-full object-cover" src="./assets/banner/darjeeling-banner.webp" alt="">
+							</div>
+						</div>
+		
+						<div class="swiper-slide">
+							<div>
+								<img class="h-[40vh] lg:h-[80vh] w-full object-cover" src="./assets/banner/goechala-banner.webp" alt="">
+							</div>
+						</div>
+		
+						<div class="swiper-slide">
+							<div>
+								<img class="h-[40vh] lg:h-[80vh] w-full object-cover" src="./assets/banner/himalay.webp" alt="">
+							</div>
+						</div>
+		
+						<div class="swiper-slide">
+							<div>
+								<img class="h-[40vh] lg:h-[80vh] w-full object-cover" src="./assets/banner/jaipur.webp" alt="">
+							</div>
+						</div>
+		
+						<div class="swiper-slide">
+							<div>
+								<img class="h-[40vh] lg:h-[80vh] w-full object-cover" src="./assets/banner/pondicherry-banner.webp" alt="">
+							</div>
+						</div>
+		
+						<div class="swiper-slide">
+							<div>
+								<img class="h-[40vh] lg:h-[80vh] w-full object-cover" src="./assets/banner/rameshwarm-banner.webp" alt="">
+							</div>
+						</div>
+		
+						<div class="swiper-slide">
+							<div>
+								<img class="h-[40vh] lg:h-[80vh] w-full object-cover" src="./assets/banner/registan.webp" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="swiper-button-next hidden lg:block"></div>
+					<div class="swiper-button-prev hidden lg:block"></div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- Explore regions section -->
+	<section>
+		<div>
+			<h2 class="text-3xl font-bold text-center lg:text-start lg:pl-20 pt-16 pb-10">Explore regions</h2>
+		</div>
+
+		<div class="lg:flex lg:justify-evenly items-center lg:px-12 mb-12 space-y-4">
+			<div class="pt-4 rounded-2xl z-10 cursor-pointer flex justify-center">
+				<div class="absolute">
+					<img class="w-[300px] lg:w-[430px] h-[80vh] object-cover rounded-2xl" src="./assets/destination-Image/Taj-mahal.jpg" alt="The-Taj">
+				</div>
+	
+				<div class="relative w-[300px] lg:w-[430px] h-[80vh] flex flex-col justify-end px-8 pb-16 rounded-2xl bg-black bg-opacity-20 z-10">
+					<h2 class="text-white text-2xl font-medium">India</h2> 
+					<p class="text-white text-base font-normal hover:scale-110 hover:transition hover:ease-in-out hover:duration-1000 hover:delay-200">From marveling at the breathtaking beauty of the Taj Mahal to experiencing the spiritual aura of Varanasi, Uttar Pradesh offers a wealth of experiences for travelers.</p>
+				</div>
+			</div>
+	
+			<div class="rounded-2xl z-10 cursor-pointer flex justify-center">
+				<div class="absolute">
+					<img class="w-[300px] lg:w-[430px] h-[80vh] object-cover rounded-2xl" src="./assets/destination-Image/DUBAI1.jpg" alt="The-Taj">
+				</div>
+	
+				<div class="relative w-[300px] lg:w-[430px] h-[80vh] flex flex-col justify-end px-8 pb-16 rounded-2xl bg-black bg-opacity-20 z-10">
+					<h2 class="text-white text-2xl font-medium">Dubai</h2> 
+					<p class="text-white text-base font-normal hover:scale-110 hover:transition hover:ease-in-out hover:duration-1000 hover:delay-200">From marveling at the breathtaking beauty of the Taj Mahal to experiencing the spiritual aura of Varanasi, Uttar Pradesh offers a wealth of experiences for travelers.</p>
+				</div>
+			</div>
+	
+			<div class="rounded-2xl z-10 cursor-pointer flex justify-center">
+				<div class="absolute">
+					<img class="w-[300px] lg:w-[430px] h-[80vh] object-cover rounded-2xl" src="./assets/destination-Image/sydney.jpg" alt="The-Taj">
+				</div>
+	
+				<div class="relative w-[300px] lg:w-[430px] h-[80vh] flex flex-col justify-end px-8 pb-16 rounded-2xl bg-black bg-opacity-20 z-10">
+					<h2 class="text-white text-2xl font-medium">Sydney</h2> 
+					<p class="text-white text-base font-normal hover:scale-110 hover:transition hover:ease-in-out hover:duration-1000 hover:delay-200">Immerse yourself in the breathtaking beauty of this incredible country as you embark on an unforgettable journey. Marvel at the iconic Sydney Opera House, an architectural gem nestled along the sparkling harbor.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Our Services Section -->
+	<section>
+		<div>
+			<div>
+				<div class="flex flex-col justify-center items-center">
+					<h2 class="text-2xl font-bold py-1">OUR SERVICES</h2>
+					<div class="bg-black rounded-full cursor-pointer w-16 mb-2 p-[2px] hover:w-32 hover:scale-x-150 hover:transition hover:ease-in-out hover:duration-1000"></div>
+					<p class="lg:px-72 text-center text-lg font-medium hover:font-semibold hover:text-xl hover:italic hover:scale-x-150 hover:transition hover:ease-in-out hover:duration-1000">At Jingle Holiday Bazar, we are committed to ensuring that you save on every trip and every holiday booking you make with us by bringing to you the best price deals; be it flights, tours or hotels. Our unique budget</p>
+				</div>
+			</div>
+
+			<div class="lg:flex lg:justify-evenly space-y-10">
+				<div class="mt-10 p-[2px] flex justify-center bg-slate-200">
+					<div class="w-[290px] lg:w-[400px] text-center space-y-2 p-2 pt-4 bg-white hover:scale-125 hover:transition hover:ease-in-out hover:duration-1000">
+						<i class="fa-solid fa-house-chimney fa-3x" style="color: #008000;"></i>
+						<h2 class="text-2xl font-semibold py-2">Jingle Holiday Bazar Homestays</h2>
+						<h3 class="text-xl font-medium py-1">Book Villas, Apartments and Resorts</h3>
+						<p class="text-justify">Jingle Holiday Bazar.com ventured into Homestays in India in 2015, and is providing great homestay experiences to its customers as well as benefits to its hosts. If you are looking for a holiday with a difference, want to closely savour the local flavours of a place, and prefer the comforts of a homely environment,Jingle Holiday Bazar Homestays is the answer.Jingle Holiday Bazar already has over 3500 homestay properties and is expanding fast. It has a stronghold in South India and across most hill stations of North India, with these places providing unique homestay experiences to customers. Some of its most popular homestay destinations are Goa, Manali, Shimla, Coorg, Wayanad, among other places.</p>
+					</div>
+				</div>
+
+				<div class=" p-[2px] flex justify-center bg-slate-200">
+					<div class="w-[290px] lg:w-[400px] text-center space-y-2 p-2 pt-4 bg-white hover:scale-125 hover:transition hover:ease-in-out hover:duration-1000">
+						<i class="fa-solid fa-bed fa-3x" style="color: #008000;"></i>
+						<h2 class="text-2xl font-semibold py-2">Jingle Holiday Bazar Hotels</h2>
+						<h3 class="text-xl font-medium py-1">Book Hotels with Jingle Holiday Bazar.com</h3>
+						<p class="text-justify">We are back in the post-pandemic world with a bouquet of hotels across Indian cities ranging from leisure to business ones with a new outlook. Jingle Holiday Bazar who has always been on the forefront of assuring a comfortable stay which is a bang for your bucks, is offering you online hotel booking that guarantees you hygienic, sanitised rooms across hotels in India. Explore a raft of interesting features such as Clean Pass stays, travel again offers and long stay discounts encouraging you to travel again, make your hotel booking while keeping your anxieties at bay.</p>
+					</div>
+				</div>
+
+				<div class=" p-[2px] flex justify-center bg-slate-200">
+					<div class="w-[290px] lg:w-[400px] text-center space-y-2 p-2 pt-4 bg-white hover:scale-125 hover:transition hover:ease-in-out hover:duration-1000">
+						<i class="fa-solid fa-plane-departure fa-3x" style="color: #008000;"></i>
+						<h2 class="text-2xl font-semibold py-2">Jingle Holiday Bazar flights</h2>
+						<h3 class="text-xl font-medium py-1">Why to book Flights Online with Jingle Holiday Bazar.com</h3>
+						<p class="text-justify">Purchasing flight tickets and confirming your flight booking is the key aspect of planning a trip. Now whether you are travelling for business or on leisure, you cannot make an itinerary until you have first and foremost booked your flights. Procuring an air ticket is a mandatory first step once your travel plans are confirmed. It feels as though half the job is done the moment you secure confirmed flight ticket booking in your hand. The entire activity of searching air connectivity between two cities, checking the schedule of the flight and zeroing in on one that's most convenient to you can feel like a lot of work especially if you are in a hurry to book your flights.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>	
+
+	<!-- POPULAR DESTINATION IN INDIA -->
+	<section>
+		<div class="my-10">
+			<div class="flex flex-col justify-center items-center py-10">
+				<h2 class="text-3xl text-center font-bold py-2">POPULAR DESTINATION IN INDIA</h2>
+				<div class="bg-black rounded-full cursor-pointer w-16 mb-4 p-[2px] hover:w-32 hover:scale-x-150 hover:transition hover:ease-in-out hover:duration-1000"></div>
+			</div>
+	
+			<div class="">
+				<div class="lg:flex">
+					<div class="h-[60vh] lg:w-[60%] flex flex-col justify-center items-center">
+						<div class="absolute lg:px-16">
+							<p class="text-center text-lg font-medium ">India is a vibrant land of startling contrasts where both the traditional and modern worlds meet.The world's seventh largest nation by area and the second largest in terms of population, India boasts a rich heritage that's the result of centuries of different cultures and religions leaving their mark</p>
+
+							<!-- hover:font-semibold hover:text-xl hover:scale-110 hover:transition hover:ease-in-out hover:duration-1000 -->
+						</div>
+	
+						<div class="relative bg-black bg-opacity-20 p-20 lg:p-36 rotate-45"></div>
+						<div class="absolute bg-black bg-opacity-20 p-16 lg:p-40 rotate-45 hover:rotate-180 hover:scale-125 hover:transition hover:ease-in-out hover:duration-1000"></div>
+					</div>
+		
+					<div class="lg:w-[40%]">
+						<div class="">
+							<div class="">
+								<div class="mx-4 mb-4 rounded-xl">
+									<img class="rounded-xl w-full h-[30vh] object-top object-cover" src="./assets/destination-Image/Taj-mahal.jpg" alt="">
+								</div>
+							</div>
+				
+							<div class="mx-4 lg:flex lg:justify-between justify-center lg:space-x-4 space-y-4">
+								<div class="lg:pt-4 flex justify-center items-center">
+									<div class="rounded-xl">
+										<img class="rounded-xl w-[90vw] lg:w-[30vw] h-[30vh] object-cover object-center hover:scale-110 hover:transition hover:ease-in-out hover:duration-1000" src="./assets/destination-Image/Jallianwala-Bagh_1000X650_220618.jpg" alt="">
+									</div>
+								</div>
+				
+								<div class="flex justify-center items-center">
+									<div class="rounded-xl">
+										<img class="rounded-xl w-[90vw] lg:w-[30vw] h-[30vh] object-cover object-center hover:scale-110 hover:transition hover:ease-in-out hover:duration-1000" src="./assets/destination-Image/Gangtok.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- POPULAR DESTINATION INTERNATIONAL -->
+	<section>
+		<div class="my-10">
+			<div class="flex flex-col justify-center items-center py-10">
+				<h2 class="text-3xl text-center font-bold py-2">POPULAR DESTINATION INTERNATIONAL</h2>
+				<div class="bg-black rounded-full cursor-pointer w-16 mb-4 p-[2px] hover:w-32 hover:scale-x-150 hover:transition hover:ease-in-out hover:duration-1000"></div>
+			</div>
+	
+			<div class="">
+				<div class="lg:flex">
+					<div class="lg:w-[40%]">
+						<div class="">
+							<div class="">
+								<div class="mx-4 mb-4 rounded-xl">
+									<img class="rounded-xl w-full h-[30vh] object-center object-cover" src="./assets/destination-Image/sydney.jpg" alt="">
+								</div>
+							</div>
+				
+							<div class="mx-4 lg:flex lg:justify-between justify-center lg:space-x-4 space-y-4">
+								<div class="lg:pt-4 flex justify-center items-center">
+									<div class="rounded-xl">
+										<img class="rounded-xl w-[90vw] lg:w-[30vw] h-[30vh] object-cover object-center hover:scale-110 hover:transition hover:ease-in-out hover:duration-1000" src="./assets/destination-Image/singapore.jpg" alt="">
+									</div>
+								</div>
+				
+								<div class="flex justify-center items-center">
+									<div class="rounded-xl">
+										<img class="rounded-xl w-[90vw] lg:w-[30vw] h-[30vh] object-cover object-center hover:scale-110 hover:transition hover:ease-in-out hover:duration-1000" src="./assets/destination-Image/DUBAI1.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="h-[60vh] lg:w-[60%] flex flex-col justify-center items-center">
+						<div class="absolute lg:px-16">
+							<p class="text-center text-lg font-medium ">Mother Earth along with mankind have co-created some of the most spectacular places on this planet. From sprawling cities to spectacular national parks, it is hard to keep your bucket list stagnant. Keeping in mind iconic attractions, culture, food and ease of travel, these are the best places in the world to visit!</p>
+						</div>
+	
+						<div class="relative bg-black bg-opacity-20 rounded-full p-20 lg:p-36"></div>
+						<div class="absolute bg-black bg-opacity-20 rounded-full p-16 lg:p-40 hover:scale-125 hover:transition hover:ease-in-out hover:duration-1000"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- All destination Button -->
+	<div class="flex justify-center items-center">
+		<button class="px-10 py-3 my-4 bg-[#131e37] text-white font-bold rounded-full hover:bg-white hover:border-2 hover:border-[#131e37] hover:text-[#131e37] hover:transition hover:ease-in-out hover:duration-500 ">All Destination</button>
+	</div>
+
+	<!-- FEATURED TOURS IN INDIA -->
+	<section>
+		<div class="my-10">
+			<div>
+				<div class="flex flex-col justify-center items-center">
+					<h2 class="text-2xl text-center lg:text-start font-bold py-1 px-2">FEATURED TOURS IN INDIA</h2>
+					<div class="bg-black rounded-full cursor-pointer w-16 mb-8 p-[2px] hover:w-32 hover:scale-x-150 hover:transition hover:ease-in-out hover:duration-1000"></div>
+					<p class="lg:px-72 text-center text-lg italic font-medium">India is a vibrant land of startling contrasts where both the traditional and modern worlds meet. The world's seventh largest tourist nation by area and the second largest in terms of population</p>
+					
+					<!-- hover:font-semibold hover:text-xl hover:italic hover:scale-x-110 hover:transition hover:ease-in-out hover:duration-1000 -->
+				</div>
+			</div>
+
+			<div>
+				<div class="lg:flex lg:justify-around items-center py-10 px-6">
+					<div class="flex justify-center items-center">
+						<img class="h-72 object-cover object-top rounded-xl hover:scale-x-110 hover:transition hover:ease-in-out hover:duration-1000" src="./assets/destination-Image/Thiksey-monastery.jpg" alt="">
+					</div>
+
+					<div class= "lg:w-1/2 text-lg italic font-medium">
+						<h2 class="text-center lg:text-start text-2xl pt-2 pb-6 font-bold text-blue-700">Week At Thiksey Monastery</h2>
+
+						<p class="text-center lg:text-start">This 12-storey complex hosts over 500 monks and is considered to be one of the most beautiful Buddhist monasteries in all of Ladakh. For Ladakh sightseeing, Thiksey Gompa will enlighten you with knowledge about some of the Buddhist culture, lifestyle, scriptures, statues and even paintings.</p>
+
+						<a class="text-blue-700" href="#">WhatsApp Now More Details</a>
+					</div>
+				</div>
+			</div>
+
+			<div>
+				<div class="lg:flex lg:justify-around items-center px-6">
+					<div class="lg:w-[40%] mt-6">
+						<div class="">
+							<img class="h-64 w-full object-cover object-center rounded-xl hover:scale-x-110 hover:transition hover:ease-in-out hover:duration-1000" src="./assets/destination-Image/Solang-Valley.jpg" alt="">
+						</div>
+
+						<div class="text-lg italic font-medium py-3">
+							<h2 class="text-center lg:text-start text-2xl pb-6 font-bold text-blue-700">FEATURED TOURS IN INDIA</h2>
+
+					        <p class="text-lg text-center lg:text-start italic font-medium">India is a vibrant land of startling contrasts where both the traditional and modern worlds meet. The world's seventh largest tourist nation by area and the second largest in terms of population</p>
+
+							<a class="text-blue-700" href="#">Contact</a>
+						</div>
+					</div>
+
+					<div class="lg:w-[40%]">
+						<div>
+							<img class="h-64 w-full object-cover object-center rounded-xl hover:scale-x-110 hover:transition hover:ease-in-out hover:duration-1000" src="./assets/destination-Image/india-goa-best-beaches-vagator-beach.jpg" alt="">
+						</div>
+
+						<div class="text-lg italic font-medium py-3">
+							<h2 class="text-2xl text-center lg:text-start pb-6 font-bold text-blue-700">Week At Beach in Goa</h2>
+
+					        <p class="text-lg text-center lg:text-start italic font-medium">Goa is the smallest state in India, Goa is synonymous to many captivating things that are best showcase of a life without stress and worries. The multitude of beaches in Goa</p>
+
+							<a class="text-blue-700" href="#">Contact</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- gallery -->
+	<section>
+		<div>
+			<div>
+				<div>
+					<div class="flex flex-col justify-center items-center">
+						<h2 class="text-2xl text-center lg:text-start font-bold py-1 px-2">Gallery</h2>
+						<div class="bg-black rounded-full cursor-pointer w-16 mb-8 p-[2px] hover:w-32 hover:scale-x-150 hover:transition hover:ease-in-out hover:duration-1000"></div>
+						<p class="lg:px-72 text-center text-lg italic font-medium">At Jingle Holiday Bazar All Over India Destination Gallery</p>
+						
+						<!-- hover:font-semibold hover:text-xl hover:italic hover:scale-x-110 hover:transition hover:ease-in-out hover:duration-1000 -->
+					</div>
+		
+					<div>
+						<div class="lg:w-1/2 my-8 border-b-2 border-black">
+							<ul class="flex flex-wrap lg:justify-evenly justify-center space-x-4">
+								<li><a href="#">North India</a></li>
+								<li><a href="#">East India</a></li>
+								<li><a href="#">West India</a></li>
+								<li><a href="#">South India</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+		
+				<div class="lg:flex lg:flex-wrap lg:justify-evenly items-center lg:px-12 mb-12 space-y-4">
+					<div class="pt-4 rounded-2xl z-10 cursor-pointer flex justify-center">
+						<div class="absolute">
+							<img class="w-[300px] lg:w-[430px] h-[80vh] object-cover object-center rounded-2xl" src="./assets/gallery/Red-Fort.jpg" alt="red-fort">
+						</div>
+			
+						<div class="relative w-[300px] lg:w-[430px] h-[80vh] flex flex-col justify-end px-8 pb-16 rounded-2xl bg-black bg-opacity-20 z-10">
+							<h2 class="text-white text-2xl font-medium">New Delhi</h2> 
+						</div>
+					</div>
+			
+					<div class="rounded-2xl z-10 cursor-pointer flex justify-center">
+						<div class="absolute">
+							<img class="w-[300px] lg:w-[430px] h-[80vh] object-cover object-center rounded-2xl" src="./assets/gallery/Shimla1.jpg" alt="simla">
+						</div>
+			
+						<div class="relative w-[300px] lg:w-[430px] h-[80vh] flex flex-col justify-end px-8 pb-16 rounded-2xl bg-black bg-opacity-20 z-10">
+							<h2 class="text-white text-2xl font-medium">Simla</h2> 
+						</div>
+					</div>
+			
+					<div class="rounded-2xl z-10 cursor-pointer flex justify-center">
+						<div class="absolute">
+							<img class="w-[300px] lg:w-[430px] h-[80vh] object-cover object-center rounded-2xl" src="./assets/gallery/Taj-mahal.jpg" alt="The-Taj">
+						</div>
+			
+						<div class="relative w-[300px] lg:w-[430px] h-[80vh] flex flex-col justify-end px-8 pb-16 rounded-2xl bg-black bg-opacity-20 z-10">
+							<h2 class="text-white text-2xl font-medium">Agra</h2> 
+						</div>
+					</div>
+
+					<div class="rounded-2xl z-10 cursor-pointer flex justify-center">
+						<div class="absolute">
+							<img class="w-[300px] lg:w-[430px] h-[80vh] object-cover object-center rounded-2xl" src="./assets/gallery/Manali1-1.jpg" alt="manali">
+						</div>
+			
+						<div class="relative w-[300px] lg:w-[430px] h-[80vh] flex flex-col justify-end px-8 pb-16 rounded-2xl bg-black bg-opacity-20 z-10">
+							<h2 class="text-white text-2xl font-medium">Manali</h2> 
+						</div>
+					</div>
+
+					<div class="rounded-2xl z-10 cursor-pointer flex justify-center">
+						<div class="absolute">
+							<img class="w-[300px] lg:w-[430px] h-[80vh] object-cover object-center rounded-2xl" src="./assets/gallery/Mussoorie1.jpg" alt="mussoorie">
+						</div>
+			
+						<div class="relative w-[300px] lg:w-[430px] h-[80vh] flex flex-col justify-end px-8 pb-16 rounded-2xl bg-black bg-opacity-20 z-10">
+							<h2 class="text-white text-2xl font-medium">Mussoorie</h2> 
+						</div>
+					</div>
+
+					<div class="rounded-2xl z-10 cursor-pointer flex justify-center">
+						<div class="absolute">
+							<img class="w-[300px] lg:w-[430px] h-[80vh] object-cover object-center rounded-2xl" src="./assets/gallery/Khajjiar.jpg" alt="khajjar">
+						</div>
+			
+						<div class="relative w-[300px] lg:w-[430px] h-[80vh] flex flex-col justify-end px-8 pb-16 rounded-2xl bg-black bg-opacity-20 z-10">
+							<h2 class="text-white text-2xl font-medium">Dalhousie</h2> 
+						</div>
+					</div>
+
+					<div class="rounded-2xl z-10 cursor-pointer flex justify-center">
+						<div class="absolute">
+							<img class="w-[300px] lg:w-[430px] h-[80vh] object-cover object-center rounded-2xl" src="./assets/gallery/Jim-Corbett.jpg" alt="jim">
+						</div>
+			
+						<div class="relative w-[300px] lg:w-[430px] h-[80vh] flex flex-col justify-end px-8 pb-16 rounded-2xl bg-black bg-opacity-20 z-10">
+							<h2 class="text-white text-2xl font-medium">Jim-Corbett National Park</h2> 
+						</div>
+					</div>
+
+					<div class="rounded-2xl z-10 cursor-pointer flex justify-center">
+						<div class="absolute">
+							<img class="w-[300px] lg:w-[430px] h-[80vh] object-cover object-center rounded-2xl" src="./assets/gallery/amritsar.jpg" alt="Amritsar">
+						</div>
+			
+						<div class="relative w-[300px] lg:w-[430px] h-[80vh] flex flex-col justify-end px-8 pb-16 rounded-2xl bg-black bg-opacity-20 z-10">
+							<h2 class="text-white text-2xl font-medium">Amritsar</h2> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- POPULAR HOTELS -->
+	<section>
+		<div class="my-10">
+			<div>
+				<div class="flex flex-col justify-center items-center">
+					<h2 class="text-2xl text-center lg:text-start font-bold py-1 px-2">FEATURED TOURS IN INDIA</h2>
+					<div class="bg-black rounded-full cursor-pointer w-16 mb-8 p-[2px] hover:w-32 hover:scale-x-150 hover:transition hover:ease-in-out hover:duration-1000"></div>
+					<p class="lg:px-72 pb-4 text-center text-lg italic font-medium">India is a vibrant land of startling contrasts where both the traditional and modern worlds meet. The world's seventh largest tourist nation by area and the second largest in terms of population</p>
+					
+					<!-- hover:font-semibold hover:text-xl hover:italic hover:scale-x-110 hover:transition hover:ease-in-out hover:duration-1000 -->
+				</div>
+			</div>
+
+			<div>
+				<div class="lg:flex lg:justify-around items-center py-4 px-6">
+					<div class="lg:w-[40%] mt-6">
+						<div class="">
+							<img class="h-64 w-full object-cover object-center rounded-xl hover:scale-x-110 hover:transition hover:ease-in-out hover:duration-1000" src="./assets/Taj-Aravali-Resort-Spa.jpg" alt="">
+						</div>
+
+						<div class="text-lg italic font-medium py-3">
+							<h2 class="text-center lg:text-start text-2xl pb-6 font-bold text-blue-700">Taj Aravali Resort & Spa</h2>
+
+					        <p class="text-lg text-center lg:text-start italic font-medium">Prices for Taj Aravali Resort and Spa one of the best hotels in India, starts at ₹ 12999+ per night</p>
+						</div>
+					</div>
+
+					<div class="lg:w-[40%]">
+						<div>
+							<img class="h-64 w-full object-cover object-center rounded-xl hover:scale-x-110 hover:transition hover:ease-in-out hover:duration-1000" src="./assets/manali-hotel.jpg" alt="">
+						</div>
+
+						<div class="text-lg italic font-medium py-3">
+					        <p class="text-lg text-center lg:text-start italic font-medium">Set in Manāli Hotel Mountain face by Snow City Hotels offers accommodation with a restaurant, free private parking, a shared lounge and a garden.₹ 1,440+ per night</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div>
+				<div class="lg:flex lg:justify-around items-center py-10 px-6">
+					<div class="flex justify-center items-center">
+						<img class="h-72 object-cover object-top rounded-xl hover:scale-x-110 hover:transition hover:ease-in-out hover:duration-1000" src="./assets/hideout-premier.jpg" alt="">
+					</div>
+
+					<div class= "lg:w-1/2 text-lg italic font-medium">
+						<h2 class="text-center lg:text-start text-2xl pt-2 pb-6 font-bold text-blue-700">Hideout Premiere</h2>
+
+						<p class="text-center lg:text-start">Hideout Resorts is a collection of elegantly designed hotels and resorts in Goa that aim to give our guests the opportunity to enjoy Goa in all her glory. Whether it’s the beaches ₹ 4499+</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- footer -->
+	<footer class="bg-black text-white ">
+		<div class="pl-4 py-8 lg:flex lg:justify-between lg:mx-32">
+			<div class="mx-2 mt-10 lg:mr-14 flex flex-col justify-center items-center">
+				<H3 class="text-lg font-bold text-orange-500 py-5">Quick Links</H3>
+				<div>
+					<ul class="gap-2 space-y-4">
+						<li>Home</li>
+						<li>About Us</li>
+						<li>Block List</li>
+						<li>Destination</li>
+						<li>Hotels</li>
+						<li>Gallery</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="mx-2 mt-10 md:mr-14 flex flex-col justify-center items-center">
+				<H3 class="text-lg font-bold text-orange-500 py-5">International Packages</H3>
+				<div>
+					<ul class="gap-2 space-y-4">
+						<li>Maldives</li>
+						<li>Singapore</li>
+						<li>Switzerland</li>
+						<li>Saudi Arabia</li>
+						<li>Thailand</li>
+						<li>Dubai</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="mx-2 mt-10 md:mr-14 flex flex-col justify-center items-center">
+				<H3 class="text-lg font-bold text-orange-500 py-5">Domestic Packages</H3>
+				<div>
+					<ul class="gap-2 space-y-4">
+						<li>Uttarakhand</li>
+						<li>Mumbai</li>
+						<li>Ladakh</li>
+						<li>Meghalaya</li>
+						<li>North East India</li>
+						<li>Rajasthan</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="mx-2 mt-10 lg:mr-14 flex flex-col justify-center items-center">
+				<H3 class="text-lg font-bold text-orange-500 mr-10 py-5">Yatra</H3>
+				<div>
+					<ul class="gap-2 space-y-4">
+						<li>Mata Vaishno</li>
+						<li>Kedarnath</li>
+						<li>Char Dham Yatra</li>
+						<li>Badrinath</li>
+						<li>Ramayana Yatra</li>
+						<li>9 Devi Yatra</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="mx-2 mt-10 md:mr-14 flex flex-col justify-center items-center">
+				<H3 class="text-lg font-bold text-orange-500 py-5">Jingle Holiday bazar</H3>
+				<div>
+					<ul class="gap-2 space-y-4">
+						<li>Travel with us from here to any where...</li>
+						<li><i class="fa-solid fa-phone-volume"></i> Phone: +91 8506922777/+91 8506944777</li>
+						<li><i class="fa-regular fa-envelope"></i> jingleholidaybazar@gmail.com</li>
+						<li><i class="fa-regular fa-envelope"></i> thejingleholidaybazar@gmail.com</li>
+						<li><i class="fa-solid fa-phone-volume"></i> 24/7 Dedicated Customer Support</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<div class="bg-gray-800 text-lg text-center space-y-2	 font-semibold py-4 lg:flex  lg:justify-around">
+				<p>Powered By | Namrata Universal | All Rights are Reserved by Jingleholidaybazar</p>
+				<div class="space-x-4">
+					<i class="fa-brands fa-facebook-f"></i>
+					<i class="fa-brands fa-instagram"></i>
+					<i class="fa-brands fa-linkedin-in"></i>
+					<i class="fa-brands fa-x-twitter"></i>
+				</div>
+			</div> 
+		</div>
+	</footer>
+
+	<!-- swiper js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<!-- script.js -->
+	<script src="./script.js"></script>
+	<!-- library.js -->
+	<script src="./library.js"></script>
+</body>
+</html>
